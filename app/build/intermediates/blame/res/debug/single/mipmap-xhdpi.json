@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_stat_notify.png",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/mipmap-xhdpi/ic_stat_notify.png"
+    }
+]

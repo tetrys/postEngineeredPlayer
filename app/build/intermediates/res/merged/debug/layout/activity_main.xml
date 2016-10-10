@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+	    <lab.drys.postengin.turntable.TurntableGLSurface
+		    android:id="@+id/turntable"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"/>
+
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="bottom"
+		    android:orientation="horizontal"
+		    android:layout_marginBottom="56dp"
+		    android:gravity="center">
+
+		    <ImageButton
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/rotation_switch"
+			    android:minHeight="24dp"
+			    android:maxHeight="24dp"
+			    android:minWidth="24dp"
+			    android:maxWidth="24dp"
+			    android:background="@drawable/spin_switch"
+			    android:layout_marginStart="24dp"
+			    android:layout_marginLeft="24dp"
+			    android:onClick="onClick"/>
+
+		    <SeekBar
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/speed_setter"
+			    android:minHeight="8dp"
+			    android:maxHeight="8dp"
+			    android:layout_marginEnd="36dp"
+			    android:layout_marginRight="36dp"
+			    android:layout_marginStart="12dp"
+			    android:layout_marginLeft="12dp"
+			    android:paddingTop="8dp"
+			    android:paddingBottom="8dp"
+			    android:thumb="@drawable/potention_th"
+			    android:progressDrawable="@drawable/progress"/>
+
+	    </LinearLayout>
+
+        <View
+            android:id="@+id/curtain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff000000"/>
+
+        <ProgressBar
+            android:id="@+id/progress_gear"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:minHeight="192dp"
+            android:minWidth="192dp"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/turn_table"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:orientation="vertical"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="?attr/colorAccent">
+
+	    <ImageView
+		    android:id="@+id/drawer_image"
+		    android:layout_width="match_parent"
+		    android:layout_height="250dp"
+		    android:scaleType="fitStart"
+		    android:paddingStart="6dp"
+		    android:paddingEnd="6dp"
+		    android:paddingTop="6dp"
+		    android:paddingBottom="6dp"
+		    android:onClick="closeDrawer"
+		    android:src="@drawable/squid"/>
+
+        <ListView android:id="@+id/left_drawer_list"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:choiceMode="singleChoice"
+                  android:paddingTop="8dp"/>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+	<FrameLayout
+	    android:id="@+id/camera_preview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="bottom">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_gravity="top"
+			android:gravity="center"
+			android:background="#00000000">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:textSize="18sp"
+				android:text="Unknown Album"
+				android:textColor="@color/bluegrey_900"
+				android:background="@color/bluegrey_a100"/>
+
+		</LinearLayout>
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom"
+			android:background="#00000000"
+			android:padding="2dp"
+			android:layout_margin="4dp">
+
+			<ImageButton
+				android:id="@+id/preview"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="start"
+				android:minHeight="96dp"
+				android:minWidth="96dp"
+				android:maxHeight="96dp"
+				android:maxWidth="96dp"
+				android:padding="2dp"
+				android:layout_margin="4dp"
+				android:scaleType="centerInside"
+				android:background="#00000000"/>
+
+			<ImageButton
+				android:id="@+id/capture"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:minHeight="96dp"
+				android:minWidth="96dp"
+				android:maxHeight="96dp"
+				android:maxWidth="96dp"
+				android:padding="2dp"
+				android:onClick="onClick"
+				android:layout_margin="4dp"
+				android:scaleType="centerInside"
+				android:background="#00000000"
+				android:src="@drawable/ic_album_black_48dp"/>
+
+			<ImageButton
+				android:id="@+id/album_view"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="end"
+				android:minHeight="96dp"
+				android:minWidth="96dp"
+				android:maxHeight="96dp"
+				android:maxWidth="96dp"
+				android:padding="2dp"
+				android:onClick="onClick"
+				android:layout_margin="4dp"
+				android:scaleType="centerInside"
+				android:background="#00000000"/>
+
+		</FrameLayout>
+
+	</FrameLayout>
+</FrameLayout>
+

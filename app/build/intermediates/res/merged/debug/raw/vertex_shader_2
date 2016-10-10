@@ -1,0 +1,11 @@
+precision mediump float;
+
+attribute vec2 a_VerVector;
+attribute vec2 a_TexVector;
+varying vec2 v_TexVector;
+
+void main(void)
+{
+	v_TexVector = a_TexVector;
+	gl_Position = vec4(a_VerVector,0.0,1.0);
+}

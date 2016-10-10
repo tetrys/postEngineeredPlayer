@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/menu/action_menu_tracks.xml",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/menu/action_menu_tracks.xml"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/menu/action_menu_playqueue.xml",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/menu/action_menu_playqueue.xml"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/menu/action_menu_artists.xml",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/menu/action_menu_artists.xml"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/menu/action_menu_albums.xml",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/menu/action_menu_albums.xml"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/menu/main_menu_dj.xml",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/menu/main_menu_dj.xml"
+    }
+]

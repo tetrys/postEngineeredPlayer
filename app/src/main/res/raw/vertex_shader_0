@@ -1,0 +1,17 @@
+precision mediump float;
+
+uniform mat2 u_TransMatrix;
+uniform mat2 u_ProjeMatrix;
+uniform vec2 u_TransVector;
+uniform float u_TransY;
+attribute vec2 a_VerVector;
+attribute vec2 a_TexVector;
+varying vec2 v_TexVector;
+vec2 vex;
+
+void main(void)
+{
+	vex = u_TransMatrix*a_VerVector+u_TransVector;
+	v_TexVector = a_TexVector;
+	gl_Position = vec4(u_ProjeMatrix*vex, 0.0, 1.0)+vec4(0.0,u_TransY,0.0,0.0);
+}

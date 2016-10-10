@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/raw/fragment_shader",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/raw/fragment_shader"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/raw/vertex_shader_2",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/raw/vertex_shader_2"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/raw/vertex_shader_1",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/raw/vertex_shader_1"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/raw/vertex_shader_0",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/raw/vertex_shader_0"
+    }
+]

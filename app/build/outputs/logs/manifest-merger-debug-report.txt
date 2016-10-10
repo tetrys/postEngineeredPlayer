@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:1:1-58:12
+	package
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:2:11-39
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:4:2-76
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:4:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:6:5-64
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:7:2-64
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:7:19-62
+uses-feature#android.hardware.camera
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:9:5-84
+	android:required
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:9:58-82
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:9:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:10:2-90
+	android:required
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:10:65-88
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:10:16-64
+application
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:12:5-56:19
+MERGED from [com.android.support:design:22.2.0] /Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] /Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:14:18-50
+	android:allowBackup
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:13:15-41
+	android:icon
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:15:18-52
+	android:largeHeap
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:17:18-42
+	android:theme
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:16:18-49
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:12:18-43
+activity#lab.drys.postengin.MainActivity
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:18:9-29:20
+	android:screenOrientation
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:22:13-45
+	android:launchMode
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:20:13-43
+	android:configChanges
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:21:13-74
+	android:theme
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:19:13-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:27:27-74
+activity#lab.drys.postengin.dj.DJActivity
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:31:6-35:17
+	android:screenOrientation
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:32:16-52
+	android:label
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:34:16-34
+	android:theme
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:33:16-55
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:31:16-45
+activity#lab.drys.postengin.discotheque.Discotheque
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:37:6-41:17
+	android:screenOrientation
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:38:16-52
+	android:label
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:40:16-43
+	android:theme
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:39:16-55
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:37:16-55
+activity#lab.drys.postengin.vinylcamera.VinylCamera
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:43:9-47:20
+	android:screenOrientation
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:46:13-40
+	android:theme
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:45:13-52
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:43:19-58
+service#lab.drys.postengin.spieler.SpielerService
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:49:9-67
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:49:18-56
+receiver#lab.drys.postengin.spieler.NoisyAudioReceiver
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:51:6-55:17
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:51:16-58
+intent-filter#android.media.AUDIO_BECOMING_NOISY
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:52:7-54:23
+action#android.media.AUDIO_BECOMING_NOISY
+ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:53:8-67
+	android:name
+		ADDED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml:53:16-65
+uses-sdk
+INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:22.2.0] /Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] /Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lykanthrop/Projects/post.engineered.player/app/src/main/AndroidManifest.xml

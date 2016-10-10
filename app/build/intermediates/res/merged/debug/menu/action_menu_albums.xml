@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="@+id/album_add"
+	      android:title="Add to Queue"
+	      android:icon="@drawable/ic_playlist_add_black_48dp"
+	      app:showAsAction="always">
+	</item>
+	<item android:id="@+id/album_add_play"
+	      android:title="Add to Queue and Play"
+	      android:icon="@drawable/ic_queue_music_black_48dp"
+	      app:showAsAction="ifRoom">
+	</item>
+	<item android:id="@+id/album_replace"
+	      android:title="Replace Queue"
+	      android:icon="@drawable/ic_playlist_add_black_48dp"
+	      app:showAsAction="ifRoom">
+	</item>
+	<item android:id="@+id/album_replace_play"
+	      android:title="Replace Queue and Play"
+	      android:icon="@drawable/ic_queue_music_black_48dp"
+	      app:showAsAction="ifRoom">
+	</item>
+	<item android:id="@+id/album_info"
+	      android:title="Album Info"
+	      android:icon="@drawable/ic_info_outline_black_48dp"
+	      app:showAsAction="ifRoom">
+	</item>
+	<item android:id="@+id/album_art"
+	      android:title="Album Info"
+	      android:icon="@drawable/ic_photo_camera_black_48dp"
+	      app:showAsAction="ifRoom">
+	</item>
+</menu>

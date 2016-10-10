@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lab.drys.postengineeredplayer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+
+    <application
+        android:name="lab.drys.postengin.PostEngin"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="lab.drys.postengin.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/PostTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lab.drys.postengin.dj.DJActivity"
+            android:label="DJ"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolbarPostTheme" >
+        </activity>
+        <activity
+            android:name="lab.drys.postengin.discotheque.Discotheque"
+            android:label="Discotheque"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolbarPostTheme" >
+        </activity>
+        <activity
+            android:name="lab.drys.postengin.vinylcamera.VinylCamera"
+            android:label="VinylCamera"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolbarPostTheme" >
+        </activity>
+
+        <service android:name="lab.drys.postengin.spieler.SpielerService" />
+
+        <receiver android:name="lab.drys.postengin.spieler.NoisyAudioReceiver" >
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

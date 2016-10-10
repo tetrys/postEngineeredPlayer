@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="PostTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="windowActionModeOverlay">true</item>
+		<item name="android:windowBackground">@color/bluegrey_100</item>
+		<item name="android:fitsSystemWindows">false</item>
+		<item name="colorPrimary">@color/bluegrey_800</item>
+		<item name="colorPrimaryDark">@color/bluegrey_900</item>
+		<item name="colorAccent">@color/bluegrey_50</item>
+		<item name="colorControlActivated">@color/bluegrey_900</item>
+		<item name="colorControlHighlight">@color/bluegrey_100</item>
+		<item name="colorSwitchThumbNormal">@color/bluegrey_50</item>
+		<item name="actionModeBackground">@color/bluegrey_800</item>
+		<item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+	</style>
+	<style name="ToolbarPostTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="windowActionModeOverlay">true</item>
+		<item name="android:windowBackground">@color/bluegrey_100</item>
+		<item name="android:fitsSystemWindows">false</item>
+		<item name="colorPrimary">@color/bluegrey_800</item>
+		<item name="colorPrimaryDark">@color/bluegrey_900</item>
+		<item name="colorAccent">@color/bluegrey_50</item>
+		<item name="colorControlActivated">@color/bluegrey_300</item>
+		<item name="colorControlHighlight">@color/bluegrey_100</item>
+		<item name="colorSwitchThumbNormal">@color/bluegrey_50</item>
+		<item name="actionModeBackground">@color/bluegrey_800</item>
+		<item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+		<item name="android:textColorPrimary">@android:color/primary_text_dark</item>
+		<item name="android:textColorSecondary">@android:color/secondary_text_dark</item>
+		<item name="android:selectableItemBackground">@drawable/null_selector</item>
+		<item name="selectableItemBackground">@drawable/null_selector</item>
+	</style>
+</resources>

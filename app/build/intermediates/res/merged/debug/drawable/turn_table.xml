@@ -1,0 +1,12 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+	<item android:drawable="@drawable/turntable_00" android:duration="150" />
+	<item android:drawable="@drawable/turntable_01" android:duration="150" />
+	<item android:drawable="@drawable/turntable_02" android:duration="150" />
+	<item android:drawable="@drawable/turntable_03" android:duration="150" />
+	<item android:drawable="@drawable/turntable_04" android:duration="150" />
+	<item android:drawable="@drawable/turntable_05" android:duration="150" />
+	<item android:drawable="@drawable/turntable_06" android:duration="150" />
+	<item android:drawable="@drawable/turntable_07" android:duration="150" />
+	<item android:drawable="@drawable/turntable_08" android:duration="150" />
+</animation-list>

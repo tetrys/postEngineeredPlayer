@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/grid_selector.xml",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/drawable-mdpi/grid_selector.xml"
+    },
+    {
+        "merged": "/Users/lykanthrop/Projects/post.engineered.player/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/null_selector.xml",
+        "source": "/Users/lykanthrop/Projects/post.engineered.player/app/src/main/res/drawable-mdpi/null_selector.xml"
+    }
+]
